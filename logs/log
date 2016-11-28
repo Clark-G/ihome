@@ -1,0 +1,390 @@
+[I 161123 01:10:04 web:1946] 304 GET /register.html (192.168.72.1) 29.95ms
+[I 161123 01:10:04 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.72.1) 15.58ms
+[I 161123 01:10:04 web:1946] 304 GET /static/css/ihome/register.css (192.168.72.1) 4.64ms
+[I 161123 01:10:04 web:1946] 304 GET /static/css/ihome/main.css (192.168.72.1) 2.78ms
+[I 161123 01:10:04 web:1946] 304 GET /static/css/reset.css (192.168.72.1) 2.28ms
+[I 161123 01:10:04 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.72.1) 4.30ms
+[I 161123 01:10:04 web:1946] 304 GET /static/js/jquery.min.js (192.168.72.1) 4.05ms
+[I 161123 01:10:04 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.72.1) 3.30ms
+[I 161123 01:10:04 web:1946] 304 GET /static/js/ihome/register.js (192.168.72.1) 4.52ms
+[I 161123 01:10:04 web:1946] 304 GET /static/images/logo@128x59.png (192.168.72.1) 12.74ms
+[I 161123 01:10:04 web:1946] 200 GET /api/imagecode?precodeid=&codeid=357a049b-36ce-4f0e-a8ae-03d0119f9f46 (192.168.72.1) 153.46ms
+[I 161123 01:10:15 web:1946] 200 GET /api/imagecode?precodeid=357a049b-36ce-4f0e-a8ae-03d0119f9f46&codeid=ca18b85b-5d16-4a2e-8361-2003c395fdc3 (192.168.72.1) 47.19ms
+[I 161123 01:10:17 web:1946] 200 GET /api/imagecode?precodeid=ca18b85b-5d16-4a2e-8361-2003c395fdc3&codeid=d52a7959-36f0-4e44-b933-c66f942f9be8 (192.168.72.1) 40.37ms
+[I 161123 01:10:19 web:1946] 200 GET /api/imagecode?precodeid=d52a7959-36f0-4e44-b933-c66f942f9be8&codeid=2eb79d4d-8da1-44b9-9e8c-58f2973d3a5f (192.168.72.1) 28.38ms
+[I 161123 01:10:28 web:1946] 200 POST /api/smscode (192.168.72.1) 3.73ms
+[I 161123 01:12:20 web:1946] 200 GET /api/imagecode?precodeid=2eb79d4d-8da1-44b9-9e8c-58f2973d3a5f&codeid=0115ff00-670e-4aee-9b69-a0af60faedea (192.168.72.1) 36.53ms
+[I 161123 01:12:35 web:1946] 304 GET /register.html (192.168.72.1) 3.62ms
+[I 161123 01:12:35 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.72.1) 7.05ms
+[I 161123 01:12:35 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.72.1) 8.70ms
+[I 161123 01:12:35 web:1946] 304 GET /static/css/ihome/register.css (192.168.72.1) 8.23ms
+[I 161123 01:12:35 web:1946] 304 GET /static/css/ihome/main.css (192.168.72.1) 2.73ms
+[I 161123 01:12:35 web:1946] 304 GET /static/css/reset.css (192.168.72.1) 2.73ms
+[I 161123 01:12:35 web:1946] 304 GET /static/images/logo@128x59.png (192.168.72.1) 5.02ms
+[I 161123 01:12:35 web:1946] 304 GET /static/js/ihome/register.js (192.168.72.1) 2.80ms
+[I 161123 01:12:35 web:1946] 304 GET /static/js/jquery.min.js (192.168.72.1) 17.62ms
+[I 161123 01:12:35 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.72.1) 4.30ms
+[I 161123 01:12:35 web:1946] 200 GET /api/imagecode?precodeid=&codeid=a4719967-d018-454d-870f-980d37ba7a49 (192.168.72.1) 81.64ms
+[I 161123 01:12:44 web:1946] 200 GET /api/imagecode?precodeid=a4719967-d018-454d-870f-980d37ba7a49&codeid=39d2ef4a-ad63-41ae-baca-97ce7e876be7 (192.168.72.1) 46.05ms
+[I 161123 01:12:47 web:1946] 200 GET /api/imagecode?precodeid=39d2ef4a-ad63-41ae-baca-97ce7e876be7&codeid=3378a437-88f4-4643-b691-d57ff29422a2 (192.168.72.1) 33.74ms
+[I 161123 01:12:49 web:1946] 200 GET /api/imagecode?precodeid=3378a437-88f4-4643-b691-d57ff29422a2&codeid=cb83ceb8-88d2-44aa-b865-5efd0799079f (192.168.72.1) 29.70ms
+[I 161123 01:12:50 web:1946] 200 GET /api/imagecode?precodeid=cb83ceb8-88d2-44aa-b865-5efd0799079f&codeid=cd85e94a-4ca9-4973-8137-7c159578a658 (192.168.72.1) 27.90ms
+[I 161123 01:12:53 web:1946] 200 GET /api/imagecode?precodeid=cd85e94a-4ca9-4973-8137-7c159578a658&codeid=916e08f7-8ad1-484d-b099-571cf181db7b (192.168.72.1) 24.43ms
+[I 161123 01:12:54 web:1946] 200 GET /api/imagecode?precodeid=916e08f7-8ad1-484d-b099-571cf181db7b&codeid=98f0cab0-067b-4e5b-8c47-dc655d38698d (192.168.72.1) 25.08ms
+[I 161123 01:13:04 web:1946] 200 POST /api/smscode (192.168.72.1) 489.07ms
+[I 161123 13:17:29 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/VerifyCode.py modified; restarting server
+[I 161123 13:17:42 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/VerifyCode.py modified; restarting server
+[I 161123 13:21:06 web:1946] 304 GET /register.html (192.168.72.1) 103.23ms
+[I 161123 13:21:07 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.72.1) 80.77ms
+[I 161123 13:21:07 web:1946] 304 GET /static/css/reset.css (192.168.72.1) 13.35ms
+[I 161123 13:21:07 web:1946] 304 GET /static/css/ihome/main.css (192.168.72.1) 11.01ms
+[I 161123 13:21:07 web:1946] 304 GET /static/css/ihome/register.css (192.168.72.1) 22.69ms
+[I 161123 13:21:07 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.72.1) 18.93ms
+[I 161123 13:21:07 web:1946] 304 GET /static/js/jquery.min.js (192.168.72.1) 207.44ms
+[I 161123 13:21:07 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.72.1) 147.16ms
+[I 161123 13:21:07 web:1946] 304 GET /static/js/ihome/register.js (192.168.72.1) 4.43ms
+[I 161123 13:21:07 web:1946] 304 GET /static/images/logo@128x59.png (192.168.72.1) 5.46ms
+[I 161123 13:21:08 web:1946] 200 GET /api/imagecode?precodeid=&codeid=a0e2be8a-907f-47cd-91e8-3818933aaea0 (192.168.72.1) 323.08ms
+[I 161123 14:58:35 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/BaseHandler.py modified; restarting server
+[I 161123 14:59:48 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/BaseHandler.py modified; restarting server
+[I 161123 14:59:55 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/BaseHandler.py modified; restarting server
+[I 161123 15:01:46 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/VerifyCode.py modified; restarting server
+[I 161123 15:07:08 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/VerifyCode.py modified; restarting server
+[I 161123 15:08:40 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/VerifyCode.py modified; restarting server
+[I 161123 15:09:17 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/VerifyCode.py modified; restarting server
+[I 161123 15:45:06 web:1946] 304 GET /register.html (192.168.72.1) 28.07ms
+[I 161123 15:45:06 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.72.1) 40.60ms
+[I 161123 15:45:06 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.72.1) 8.46ms
+[I 161123 15:45:06 web:1946] 304 GET /static/css/ihome/main.css (192.168.72.1) 3.94ms
+[I 161123 15:45:06 web:1946] 304 GET /static/css/reset.css (192.168.72.1) 3.44ms
+[I 161123 15:45:06 web:1946] 304 GET /static/css/ihome/register.css (192.168.72.1) 7.44ms
+[I 161123 15:45:06 web:1946] 304 GET /static/js/jquery.min.js (192.168.72.1) 6.13ms
+[I 161123 15:45:06 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.72.1) 3.52ms
+[I 161123 15:45:06 web:1946] 200 GET /static/js/ihome/register.js (192.168.72.1) 4.68ms
+[I 161123 15:45:06 web:1946] 304 GET /static/images/logo@128x59.png (192.168.72.1) 3.21ms
+[I 161123 15:45:06 web:1946] 200 GET /api/imagecode?precodeid=&codeid=bf7015c0-c99b-47b4-857c-5a9c5465d95a (192.168.72.1) 111.04ms
+[E 161123 15:45:51 web:1524] Uncaught exception POST /api/smscode (192.168.72.1)
+    HTTPServerRequest(protocol='http', host='192.168.72.129:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='192.168.72.1', headers={'Origin': 'http://192.168.72.129:8000', 'Content-Length': '104', 'Accept-Language': 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4,zh-TW;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Xsrftoken': '2|9b3783a2|dde310809623dcecd9dd715a90825792|1479887106', 'Host': '192.168.72.129:8000', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1', 'Dnt': '1', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://192.168.72.129:8000/register.html', 'Cookie': 'count="2|1:0|10:1479313830|5:count|4:Nw==|eeb5dabb6b320bc5dd269ed61c77071161e0508404b32e7e311339ee2c8414cc"; _xsrf=2|9b3783a2|dde310809623dcecd9dd715a90825792|1479887106', 'Content-Type': 'application/json'})
+    Traceback (most recent call last):
+      File "/home/python/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1422, in _execute
+        result = self.prepare()
+      File "/mnt/hgfs/advanced/project/Tornado_Project/handlers/BaseHandler.py", line 23, in prepare
+        self.json_args = json.loads(self.request.body)
+    NameError: global name 'json' is not defined
+[E 161123 15:45:51 web:1946] 500 POST /api/smscode (192.168.72.1) 6.70ms
+[I 161123 15:47:06 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/BaseHandler.py modified; restarting server
+[I 161123 15:47:19 web:1946] 200 GET /api/imagecode?precodeid=bf7015c0-c99b-47b4-857c-5a9c5465d95a&codeid=990920b0-647c-441a-aaa5-db71c5da70e9 (192.168.72.1) 62.02ms
+[I 161123 15:47:36 web:1946] 304 GET /register.html (192.168.72.1) 32.49ms
+[I 161123 15:47:36 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.72.1) 34.02ms
+[I 161123 15:47:36 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.72.1) 5.20ms
+[I 161123 15:47:36 web:1946] 304 GET /static/css/reset.css (192.168.72.1) 7.33ms
+[I 161123 15:47:36 web:1946] 304 GET /static/css/ihome/main.css (192.168.72.1) 6.02ms
+[I 161123 15:47:36 web:1946] 304 GET /static/css/ihome/register.css (192.168.72.1) 3.81ms
+[I 161123 15:47:36 web:1946] 304 GET /static/js/jquery.min.js (192.168.72.1) 4.13ms
+[I 161123 15:47:36 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.72.1) 7.42ms
+[I 161123 15:47:36 web:1946] 304 GET /static/js/ihome/register.js (192.168.72.1) 2.92ms
+[I 161123 15:47:36 web:1946] 304 GET /static/images/logo@128x59.png (192.168.72.1) 3.43ms
+[I 161123 15:47:36 web:1946] 200 GET /api/imagecode?precodeid=&codeid=0d0e06d6-a1f3-4f51-b66b-5256146d10da (192.168.72.1) 37.03ms
+[I 161123 15:48:20 web:1946] 200 GET /api/imagecode?precodeid=0d0e06d6-a1f3-4f51-b66b-5256146d10da&codeid=a42cf1f0-bc47-44e7-8008-c39da25cce1e (192.168.72.1) 22.19ms
+[I 161123 15:48:22 web:1946] 200 GET /api/imagecode?precodeid=a42cf1f0-bc47-44e7-8008-c39da25cce1e&codeid=bc785f41-7ddb-48d4-bede-c02635b6e7a3 (192.168.72.1) 29.28ms
+[I 161123 15:48:24 web:1946] 200 GET /api/imagecode?precodeid=bc785f41-7ddb-48d4-bede-c02635b6e7a3&codeid=be4400a7-c3fa-424e-828d-fdf8f90b8f91 (192.168.72.1) 31.47ms
+[I 161123 15:48:29 web:1946] 200 GET /api/imagecode?precodeid=be4400a7-c3fa-424e-828d-fdf8f90b8f91&codeid=f350bcba-2b65-4998-851c-4d1d4e2387bd (192.168.72.1) 30.83ms
+[I 161123 15:48:48 web:1946] 200 POST /api/smscode (192.168.72.1) 453.22ms
+[I 161123 15:49:51 web:1946] 200 POST /api/smscode (192.168.72.1) 583.41ms
+[I 161123 15:51:19 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/config.py modified; restarting server
+[I 161123 15:53:43 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/BaseHandler.py modified; restarting server
+[I 161123 15:59:01 web:1946] 304 GET /register.html (192.168.72.1) 12.89ms
+[I 161123 15:59:01 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.72.1) 24.59ms
+[I 161123 15:59:01 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.72.1) 5.46ms
+[I 161123 15:59:01 web:1946] 304 GET /static/css/ihome/register.css (192.168.72.1) 4.15ms
+[I 161123 15:59:01 web:1946] 304 GET /static/css/ihome/main.css (192.168.72.1) 2.72ms
+[I 161123 15:59:01 web:1946] 304 GET /static/css/reset.css (192.168.72.1) 2.67ms
+[I 161123 15:59:01 web:1946] 304 GET /static/js/jquery.min.js (192.168.72.1) 3.25ms
+[I 161123 15:59:01 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.72.1) 3.28ms
+[I 161123 15:59:02 web:1946] 304 GET /static/js/ihome/register.js (192.168.72.1) 3.39ms
+[I 161123 15:59:02 web:1946] 304 GET /static/images/logo@128x59.png (192.168.72.1) 3.11ms
+[I 161123 15:59:02 web:1946] 200 GET /api/imagecode?precodeid=&codeid=606c477f-779f-42cd-93d0-8d3cd0f28344 (192.168.72.1) 116.40ms
+[I 161123 15:59:38 web:1946] 304 GET / (192.168.72.1) 98.90ms
+[I 161123 15:59:38 web:1946] 304 GET /static/js/ihome/index.js (192.168.72.1) 18.12ms
+[W 161123 15:59:39 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (192.168.72.1) 42.02ms
+[I 161123 15:59:44 web:1946] 200 GET /api/imagecode?precodeid=&codeid=0fdca081-620a-4560-acab-a4c4e889fdde (192.168.72.1) 43.43ms
+[I 161123 15:59:48 web:1946] 304 GET /register.html (192.168.72.1) 7.64ms
+[I 161123 15:59:48 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.72.1) 5.75ms
+[I 161123 15:59:48 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.72.1) 4.65ms
+[I 161123 15:59:48 web:1946] 304 GET /static/css/ihome/register.css (192.168.72.1) 3.84ms
+[I 161123 15:59:48 web:1946] 304 GET /static/css/ihome/main.css (192.168.72.1) 2.84ms
+[I 161123 15:59:48 web:1946] 304 GET /static/css/reset.css (192.168.72.1) 2.93ms
+[I 161123 15:59:48 web:1946] 304 GET /static/js/jquery.min.js (192.168.72.1) 4.28ms
+[I 161123 15:59:48 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.72.1) 3.24ms
+[I 161123 15:59:48 web:1946] 304 GET /static/js/ihome/register.js (192.168.72.1) 8.89ms
+[I 161123 15:59:48 web:1946] 304 GET /static/images/logo@128x59.png (192.168.72.1) 5.28ms
+[I 161123 15:59:49 web:1946] 200 GET /api/imagecode?precodeid=&codeid=5d04d0e6-b815-4f2f-807f-43e6130781aa (192.168.72.1) 54.26ms
+[I 161123 16:00:43 web:1946] 200 GET /api/imagecode?precodeid=5d04d0e6-b815-4f2f-807f-43e6130781aa&codeid=d4fe9721-9b96-4653-8d79-bafdad967229 (192.168.72.1) 42.72ms
+[I 161123 16:00:50 web:1946] 200 POST /api/smscode (192.168.72.1) 18.14ms
+[I 161123 16:01:18 web:1946] 200 POST /api/smscode (192.168.72.1) 391.04ms
+[I 161123 16:24:25 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/urls.py modified; restarting server
+[W 161123 17:05:47 web:1521] 403 POST / (192.168.72.1): '_xsrf' argument missing from POST
+[W 161123 17:05:47 web:1946] 403 POST / (192.168.72.1) 8.28ms
+[I 161123 17:06:52 web:1946] 200 GET /register.html (192.168.72.1) 13.82ms
+[I 161123 17:06:52 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.72.1) 8.56ms
+[I 161123 17:06:52 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.72.1) 4.47ms
+[I 161123 17:06:52 web:1946] 304 GET /static/css/reset.css (192.168.72.1) 3.53ms
+[I 161123 17:06:52 web:1946] 304 GET /static/css/ihome/main.css (192.168.72.1) 3.89ms
+[I 161123 17:06:52 web:1946] 304 GET /static/css/ihome/register.css (192.168.72.1) 4.57ms
+[I 161123 17:06:52 web:1946] 304 GET /static/js/jquery.min.js (192.168.72.1) 5.93ms
+[I 161123 17:06:52 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.72.1) 8.61ms
+[I 161123 17:06:52 web:1946] 304 GET /static/js/ihome/register.js (192.168.72.1) 3.20ms
+[I 161123 17:06:52 web:1946] 304 GET /static/images/logo@128x59.png (192.168.72.1) 3.82ms
+[I 161123 17:06:52 web:1946] 304 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (192.168.72.1) 51.25ms
+[W 161123 17:06:52 web:1946] 404 GET /api/imagecode?precodeid=&codeid=cf0be308-7622-42f7-b56a-d81b1b2897fb (192.168.72.1) 3.19ms
+[W 161123 17:07:15 web:1946] 404 GET /api/imagecode?precodeid=cf0be308-7622-42f7-b56a-d81b1b2897fb&codeid=bac4d075-ae23-4e30-ba24-95df4325b616 (192.168.72.1) 3.18ms
+[I 161123 17:09:09 web:1946] 304 GET /register.html (192.168.72.1) 3.12ms
+[I 161123 17:09:09 web:1946] 304 GET /static/css/ihome/register.css (192.168.72.1) 6.15ms
+[I 161123 17:09:09 web:1946] 304 GET /static/css/ihome/main.css (192.168.72.1) 4.99ms
+[I 161123 17:09:09 web:1946] 304 GET /static/css/reset.css (192.168.72.1) 2.83ms
+[I 161123 17:09:09 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.72.1) 5.58ms
+[I 161123 17:09:09 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.72.1) 5.58ms
+[I 161123 17:09:09 web:1946] 304 GET /static/js/jquery.min.js (192.168.72.1) 4.41ms
+[I 161123 17:09:09 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.72.1) 4.07ms
+[I 161123 17:09:09 web:1946] 304 GET /static/js/ihome/register.js (192.168.72.1) 6.33ms
+[I 161123 17:09:09 web:1946] 304 GET /static/images/logo@128x59.png (192.168.72.1) 4.41ms
+[W 161123 17:09:10 web:1946] 404 GET /api/imagecode?precodeid=&codeid=1e3dd0ca-f29a-4bd9-b37e-19bfd96b052e (192.168.72.1) 5.12ms
+[I 161123 17:18:37 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/urls.py modified; restarting server
+[I 161123 17:18:49 web:1946] 304 GET /register.html (192.168.72.1) 15.67ms
+[I 161123 17:18:49 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.72.1) 6.94ms
+[I 161123 17:18:49 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.72.1) 3.84ms
+[I 161123 17:18:49 web:1946] 304 GET /static/css/reset.css (192.168.72.1) 6.11ms
+[I 161123 17:18:49 web:1946] 304 GET /static/css/ihome/main.css (192.168.72.1) 18.16ms
+[I 161123 17:18:49 web:1946] 304 GET /static/css/ihome/register.css (192.168.72.1) 7.84ms
+[I 161123 17:18:49 web:1946] 304 GET /static/js/jquery.min.js (192.168.72.1) 6.88ms
+[I 161123 17:18:49 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.72.1) 13.07ms
+[I 161123 17:18:49 web:1946] 304 GET /static/js/ihome/register.js (192.168.72.1) 5.75ms
+[I 161123 17:18:49 web:1946] 304 GET /static/images/logo@128x59.png (192.168.72.1) 3.98ms
+[W 161123 17:18:49 web:1946] 404 GET /api/imagecode?precodeid=&codeid=35c9910c-332e-4faa-82ae-cfc133c197cd (192.168.72.1) 5.66ms
+[I 161123 17:21:24 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/BaseHandler.py modified; restarting server
+[I 161123 17:21:26 web:1946] 304 GET /register.html (192.168.72.1) 46.42ms
+[I 161123 17:21:26 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.72.1) 13.21ms
+[I 161123 17:21:26 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.72.1) 4.02ms
+[I 161123 17:21:26 web:1946] 304 GET /static/css/reset.css (192.168.72.1) 3.14ms
+[I 161123 17:21:26 web:1946] 304 GET /static/css/ihome/main.css (192.168.72.1) 7.97ms
+[I 161123 17:21:26 web:1946] 304 GET /static/css/ihome/register.css (192.168.72.1) 7.16ms
+[I 161123 17:21:26 web:1946] 304 GET /static/js/jquery.min.js (192.168.72.1) 6.77ms
+[I 161123 17:21:26 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.72.1) 3.63ms
+[I 161123 17:21:26 web:1946] 304 GET /static/js/ihome/register.js (192.168.72.1) 3.60ms
+[I 161123 17:21:26 web:1946] 304 GET /static/images/logo@128x59.png (192.168.72.1) 2.80ms
+[W 161123 17:21:26 web:1946] 404 GET /api/imagecode?precodeid=&codeid=00c56fb2-3675-4dc9-af0b-6a2751d32ca7 (192.168.72.1) 7.39ms
+[I 161123 17:22:22 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/BaseHandler.py modified; restarting server
+[I 161123 17:24:41 web:1946] 304 GET /register.html (192.168.72.1) 44.52ms
+[I 161123 17:24:41 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.72.1) 14.34ms
+[I 161123 17:24:41 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.72.1) 3.74ms
+[I 161123 17:24:41 web:1946] 304 GET /static/css/reset.css (192.168.72.1) 5.03ms
+[I 161123 17:24:41 web:1946] 304 GET /static/css/ihome/main.css (192.168.72.1) 3.80ms
+[I 161123 17:24:41 web:1946] 304 GET /static/css/ihome/register.css (192.168.72.1) 5.66ms
+[I 161123 17:24:41 web:1946] 304 GET /static/js/jquery.min.js (192.168.72.1) 4.50ms
+[I 161123 17:24:41 web:1946] 304 GET /static/images/logo@128x59.png (192.168.72.1) 13.16ms
+[I 161123 17:24:41 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.72.1) 18.79ms
+[I 161123 17:24:41 web:1946] 304 GET /static/js/ihome/register.js (192.168.72.1) 4.81ms
+[W 161123 17:24:42 web:1946] 404 GET /api/imagecode?precodeid=&codeid=a22c6b21-3d41-4cc2-9a33-0ff681b7ce03 (192.168.72.1) 8.75ms
+[I 161123 17:28:28 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/urls.py modified; restarting server
+[I 161123 17:28:30 web:1946] 304 GET /register.html (192.168.72.1) 46.50ms
+[I 161123 17:28:30 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.72.1) 37.62ms
+[I 161123 17:28:30 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.72.1) 4.59ms
+[I 161123 17:28:30 web:1946] 304 GET /static/css/ihome/main.css (192.168.72.1) 5.69ms
+[I 161123 17:28:30 web:1946] 304 GET /static/css/reset.css (192.168.72.1) 2.69ms
+[I 161123 17:28:30 web:1946] 304 GET /static/css/ihome/register.css (192.168.72.1) 6.47ms
+[I 161123 17:28:30 web:1946] 304 GET /static/js/jquery.min.js (192.168.72.1) 5.23ms
+[I 161123 17:28:30 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.72.1) 3.22ms
+[I 161123 17:28:30 web:1946] 304 GET /static/js/ihome/register.js (192.168.72.1) 4.25ms
+[I 161123 17:28:30 web:1946] 304 GET /static/images/logo@128x59.png (192.168.72.1) 3.13ms
+[I 161123 17:28:30 web:1946] 200 GET /api/imagecode?precodeid=&codeid=5a73f70a-f03e-4724-bbaa-155326f3b74a (192.168.72.1) 121.30ms
+[I 161123 17:30:55 web:1946] 200 GET / (192.168.72.1) 7.87ms
+[W 161123 17:32:07 web:1521] 403 POST /api/register (192.168.72.1): '_xsrf' argument missing from POST
+[W 161123 17:32:07 web:1946] 403 POST /api/register (192.168.72.1) 11.62ms
+[W 161123 17:32:48 web:1521] 403 POST /api/register (192.168.72.1): '_xsrf' argument missing from POST
+[W 161123 17:32:48 web:1946] 403 POST /api/register (192.168.72.1) 5.07ms
+[I 161123 18:19:36 web:1946] 200 GET /api/imagecode?precodeid=5a73f70a-f03e-4724-bbaa-155326f3b74a&codeid=bf2ed9af-379b-4f07-8912-5182d2fbe60e (192.168.72.1) 31.30ms
+[I 161123 18:20:27 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/config.py modified; restarting server
+[I 161123 18:20:36 web:1946] 200 POST /api/register (192.168.72.1) 3.82ms
+[I 161123 18:21:32 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/Passport.py modified; restarting server
+[I 161123 18:58:11 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/VerifyCode.py modified; restarting server
+[I 161123 18:58:49 web:1946] 304 GET /register.html (192.168.72.1) 20.25ms
+[I 161123 18:58:50 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.72.1) 7.52ms
+[I 161123 18:58:50 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.72.1) 3.96ms
+[I 161123 18:58:50 web:1946] 304 GET /static/css/reset.css (192.168.72.1) 3.82ms
+[I 161123 18:58:50 web:1946] 304 GET /static/css/ihome/register.css (192.168.72.1) 3.36ms
+[I 161123 18:58:50 web:1946] 304 GET /static/js/jquery.min.js (192.168.72.1) 5.77ms
+[I 161123 18:58:50 web:1946] 304 GET /static/css/ihome/main.css (192.168.72.1) 4.10ms
+[I 161123 18:58:50 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.72.1) 4.97ms
+[I 161123 18:58:50 web:1946] 304 GET /static/js/ihome/register.js (192.168.72.1) 3.17ms
+[I 161123 18:58:50 web:1946] 304 GET /static/images/logo@128x59.png (192.168.72.1) 3.39ms
+[I 161123 18:58:50 web:1946] 200 GET /api/imagecode?precodeid=&codeid=245c7dc9-7674-4978-961c-a63f0494a057 (192.168.72.1) 93.17ms
+[I 161123 18:59:06 web:1946] 200 POST /api/smscode (192.168.72.1) 9.12ms
+[I 161123 18:59:27 web:1946] 200 GET /api/imagecode?precodeid=245c7dc9-7674-4978-961c-a63f0494a057&codeid=e91b6891-a072-4854-abdc-0dac34b74ad1 (192.168.72.1) 56.06ms
+[I 161123 18:59:46 web:1946] 200 GET /api/imagecode?precodeid=e91b6891-a072-4854-abdc-0dac34b74ad1&codeid=1e9a9217-facf-436b-96ab-55659cebe585 (192.168.72.1) 46.17ms
+[I 161123 18:59:53 web:1946] 200 POST /api/smscode (192.168.72.1) 298.74ms
+[I 161123 19:02:09 web:1946] 200 GET /api/imagecode?precodeid=1e9a9217-facf-436b-96ab-55659cebe585&codeid=9ae4847a-51ae-4152-b612-2f3753102556 (192.168.72.1) 31.42ms
+[I 161123 19:02:18 web:1946] 200 POST /api/smscode (192.168.72.1) 2.62ms
+[I 161123 19:02:26 web:1946] 200 GET /api/imagecode?precodeid=9ae4847a-51ae-4152-b612-2f3753102556&codeid=408cb027-064d-41f7-bca8-b515d2126df8 (192.168.72.1) 29.93ms
+[I 161123 19:02:29 web:1946] 200 POST /api/smscode (192.168.72.1) 1.83ms
+[I 161123 19:02:37 web:1946] 200 POST /api/smscode (192.168.72.1) 2.71ms
+[I 161123 19:51:38 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/Passport.py modified; restarting server
+[I 161123 19:51:44 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/Passport.py modified; restarting server
+[I 161123 19:51:51 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/Passport.py modified; restarting server
+[I 161123 19:52:28 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/Passport.py modified; restarting server
+[I 161123 19:54:50 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/Passport.py modified; restarting server
+[I 161123 19:55:44 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/VerifyCode.py modified; restarting server
+[I 161123 19:57:12 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/Passport.py modified; restarting server
+[I 161123 19:59:21 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/Passport.py modified; restarting server
+[I 161123 20:00:27 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/Passport.py modified; restarting server
+[I 161123 20:00:40 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/Passport.py modified; restarting server
+[I 161123 20:01:07 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/Passport.py modified; restarting server
+[I 161123 20:01:20 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/Passport.py modified; restarting server
+[I 161123 20:03:44 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/Passport.py modified; restarting server
+[I 161123 20:10:10 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/Passport.py modified; restarting server
+[I 161123 20:10:59 web:1946] 200 GET /register.html (192.168.72.1) 28.96ms
+[I 161123 20:10:59 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.72.1) 8.76ms
+[I 161123 20:11:00 web:1946] 304 GET /static/css/reset.css (192.168.72.1) 3.08ms
+[I 161123 20:11:00 web:1946] 304 GET /static/css/ihome/main.css (192.168.72.1) 6.61ms
+[I 161123 20:11:00 web:1946] 304 GET /static/css/ihome/register.css (192.168.72.1) 5.85ms
+[I 161123 20:11:00 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.72.1) 10.11ms
+[I 161123 20:11:00 web:1946] 304 GET /static/js/jquery.min.js (192.168.72.1) 18.67ms
+[I 161123 20:11:00 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.72.1) 4.64ms
+[I 161123 20:11:00 web:1946] 200 GET /static/js/ihome/register.js (192.168.72.1) 6.29ms
+[I 161123 20:11:00 web:1946] 304 GET /static/images/logo@128x59.png (192.168.72.1) 25.79ms
+[I 161123 20:11:01 web:1946] 200 GET /api/imagecode?precodeid=&codeid=8a7f6c87-ccef-4bfa-a75e-b2bb31e1feae (192.168.72.1) 272.01ms
+[I 161123 20:13:10 web:1946] 200 GET /api/imagecode?precodeid=8a7f6c87-ccef-4bfa-a75e-b2bb31e1feae&codeid=e8d30b7a-e453-4511-be4a-96f591e24159 (192.168.72.1) 51.60ms
+[I 161123 20:13:51 web:1946] 200 GET /api/imagecode?precodeid=e8d30b7a-e453-4511-be4a-96f591e24159&codeid=1d48a8d1-590f-436d-a692-e95dffd11cf5 (192.168.72.1) 188.19ms
+[E 161123 20:14:21 web:1524] Uncaught exception POST /api/register (192.168.72.1)
+    HTTPServerRequest(protocol='http', host='192.168.72.129:8000', method='POST', uri='/api/register', version='HTTP/1.1', remote_ip='192.168.72.1', headers={'Origin': 'http://192.168.72.129:8000', 'Content-Length': '109', 'Accept-Language': 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4,zh-TW;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Xsrftoken': '2|9b3783a2|dde310809623dcecd9dd715a90825792|1479887106', 'Host': '192.168.72.129:8000', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1', 'Dnt': '1', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://192.168.72.129:8000/register.html', 'Cookie': 'count="2|1:0|10:1479313830|5:count|4:Nw==|eeb5dabb6b320bc5dd269ed61c77071161e0508404b32e7e311339ee2c8414cc"; _xsrf=2|9b3783a2|dde310809623dcecd9dd715a90825792|1479887106', 'Content-Type': 'application/json'})
+    Traceback (most recent call last):
+      File "/home/python/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1443, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/mnt/hgfs/advanced/project/Tornado_Project/handlers/Passport.py", line 35, in post
+        return self.write({"errno": RET.NODATA, "errmsg": "短信验证码已过期！"})
+    NameError: global name 'RET' is not defined
+[E 161123 20:14:21 web:1946] 500 POST /api/register (192.168.72.1) 11.36ms
+[I 161123 20:15:34 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/Passport.py modified; restarting server
+[I 161123 20:15:41 web:1946] 200 POST /api/register (192.168.72.1) 3.59ms
+[I 161123 20:16:42 web:1946] 200 POST /api/smscode (192.168.72.1) 6.28ms
+[I 161123 20:16:48 web:1946] 200 GET /api/imagecode?precodeid=1d48a8d1-590f-436d-a692-e95dffd11cf5&codeid=a5ddbb9d-ff67-4c70-97db-fb08b9c94775 (192.168.72.1) 99.60ms
+[I 161123 20:16:58 web:1946] 200 POST /api/smscode (192.168.72.1) 2495.91ms
+[E 161123 20:16:58 web:1524] Uncaught exception POST /api/register (192.168.72.1)
+    HTTPServerRequest(protocol='http', host='192.168.72.129:8000', method='POST', uri='/api/register', version='HTTP/1.1', remote_ip='192.168.72.1', headers={'Origin': 'http://192.168.72.129:8000', 'Content-Length': '109', 'Accept-Language': 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4,zh-TW;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Xsrftoken': '2|9b3783a2|dde310809623dcecd9dd715a90825792|1479887106', 'Host': '192.168.72.129:8000', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1', 'Dnt': '1', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://192.168.72.129:8000/register.html', 'Cookie': 'count="2|1:0|10:1479313830|5:count|4:Nw==|eeb5dabb6b320bc5dd269ed61c77071161e0508404b32e7e311339ee2c8414cc"; _xsrf=2|9b3783a2|dde310809623dcecd9dd715a90825792|1479887106', 'Content-Type': 'application/json'})
+    Traceback (most recent call last):
+      File "/home/python/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1443, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/mnt/hgfs/advanced/project/Tornado_Project/handlers/Passport.py", line 37, in post
+        if phone_code != re_ph_code and phonecode == '1234':
+    NameError: global name 'phonecode' is not defined
+[E 161123 20:16:58 web:1946] 500 POST /api/register (192.168.72.1) 19.28ms
+[I 161123 20:17:27 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/Passport.py modified; restarting server
+[I 161123 20:17:36 web:1946] 200 POST /api/register (192.168.72.1) 3.34ms
+[I 161123 20:18:20 web:1946] 200 GET /api/imagecode?precodeid=a5ddbb9d-ff67-4c70-97db-fb08b9c94775&codeid=c5e8eac8-9f87-4cbd-bf91-712c5db95448 (192.168.72.1) 101.64ms
+[I 161123 20:18:34 web:1946] 200 POST /api/register (192.168.72.1) 11.87ms
+[I 161123 20:18:42 web:1946] 200 POST /api/register (192.168.72.1) 2.21ms
+[W 161123 20:19:58 web:1946] 405 GET /api/register (192.168.72.1) 6.99ms
+[I 161123 20:21:28 web:1946] 304 GET /register.html (192.168.72.1) 15.82ms
+[I 161123 20:21:28 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.72.1) 12.58ms
+[I 161123 20:21:29 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.72.1) 9.24ms
+[I 161123 20:21:29 web:1946] 304 GET /static/css/reset.css (192.168.72.1) 4.53ms
+[I 161123 20:21:29 web:1946] 304 GET /static/css/ihome/main.css (192.168.72.1) 9.10ms
+[I 161123 20:21:29 web:1946] 304 GET /static/css/ihome/register.css (192.168.72.1) 18.98ms
+[I 161123 20:21:29 web:1946] 304 GET /static/js/jquery.min.js (192.168.72.1) 15.57ms
+[I 161123 20:21:29 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.72.1) 5.33ms
+[I 161123 20:21:29 web:1946] 304 GET /static/js/ihome/register.js (192.168.72.1) 6.49ms
+[I 161123 20:21:29 web:1946] 304 GET /static/images/logo@128x59.png (192.168.72.1) 57.70ms
+[I 161123 20:21:30 web:1946] 200 GET /api/imagecode?precodeid=&codeid=b3992330-e868-47cd-a39b-b1dedcbddbad (192.168.72.1) 424.36ms
+[I 161123 20:21:54 web:1946] 200 GET /api/imagecode?precodeid=b3992330-e868-47cd-a39b-b1dedcbddbad&codeid=481f295e-4596-4a34-a769-e4d4d2d19459 (192.168.72.1) 54.02ms
+[I 161123 20:21:57 web:1946] 200 GET /api/imagecode?precodeid=481f295e-4596-4a34-a769-e4d4d2d19459&codeid=c3f7f5fb-dc1d-44ac-a544-7c0a69103130 (192.168.72.1) 33.79ms
+[I 161123 20:22:05 web:1946] 200 POST /api/smscode (192.168.72.1) 10.29ms
+[I 161123 20:22:07 web:1946] 200 GET /api/imagecode?precodeid=c3f7f5fb-dc1d-44ac-a544-7c0a69103130&codeid=53b09c69-5e4f-43aa-89c5-e892f09c547f (192.168.72.1) 35.26ms
+[I 161123 20:22:15 web:1946] 200 POST /api/smscode (192.168.72.1) 399.24ms
+[I 161123 20:22:27 web:1946] 200 POST /api/register (192.168.72.1) 3.33ms
+[I 161123 20:31:27 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/Passport.py modified; restarting server
+[I 161123 20:36:19 web:1946] 200 GET /register.html (192.168.72.1) 50.85ms
+[I 161123 20:36:19 web:1946] 304 GET /static/js/ihome/register.js (192.168.72.1) 61.26ms
+[I 161123 20:36:20 web:1946] 200 GET /api/imagecode?precodeid=&codeid=41dd9e57-3063-4d65-a81d-0a9f35dceb18 (192.168.72.1) 137.20ms
+[I 161123 20:36:20 web:1946] 200 GET /favicon.ico (192.168.72.1) 36.46ms
+[I 161123 20:39:41 web:1946] 200 GET /api/imagecode?precodeid=41dd9e57-3063-4d65-a81d-0a9f35dceb18&codeid=5439a193-c676-4f3f-b71f-ed820ddb0004 (192.168.72.1) 25.83ms
+[I 161123 20:39:43 web:1946] 200 GET /api/imagecode?precodeid=5439a193-c676-4f3f-b71f-ed820ddb0004&codeid=88d0646d-d3e9-465f-b209-62ca0e5b56bc (192.168.72.1) 20.93ms
+[I 161123 20:39:57 web:1946] 200 POST /api/smscode (192.168.72.1) 7662.18ms
+[E 161123 20:40:11 torndb:236] Error connecting to MySQL on 127.0.0.1
+[E 161123 20:40:11 web:1524] Uncaught exception POST /api/register (192.168.72.1)
+    HTTPServerRequest(protocol='http', host='192.168.72.129:8000', method='POST', uri='/api/register', version='HTTP/1.1', remote_ip='192.168.72.1', headers={'Origin': 'http://192.168.72.129:8000', 'Content-Length': '108', 'Accept-Language': 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4,zh-TW;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Xsrftoken': '2|9b3783a2|dde310809623dcecd9dd715a90825792|1479887106', 'Host': '192.168.72.129:8000', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36', 'Dnt': '1', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://192.168.72.129:8000/register.html', 'Cookie': 'count="2|1:0|10:1479313830|5:count|4:Nw==|eeb5dabb6b320bc5dd269ed61c77071161e0508404b32e7e311339ee2c8414cc"; _xsrf=2|9b3783a2|dde310809623dcecd9dd715a90825792|1479887106', 'Content-Type': 'application/json'})
+    Traceback (most recent call last):
+      File "/home/python/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1443, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/mnt/hgfs/advanced/project/Tornado_Project/handlers/Passport.py", line 45, in post
+        logging.error(e)
+    NameError: global name 'logging' is not defined
+[E 161123 20:40:12 web:1946] 500 POST /api/register (192.168.72.1) 27.93ms
+[I 161123 20:40:54 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/Passport.py modified; restarting server
+[E 161123 20:41:00 torndb:236] Error connecting to MySQL on 127.0.0.1
+[E 161123 20:41:00 Passport:46] (1054, "Unknown column 'ui_passwd' in 'field list'")
+[I 161123 20:41:00 web:1946] 200 POST /api/register (192.168.72.1) 14.81ms
+[I 161123 20:41:45 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/Passport.py modified; restarting server
+[E 161123 20:41:47 torndb:236] Error connecting to MySQL on 127.0.0.1
+[E 161123 20:41:47 Passport:46] (1364, "Field 'up_name' doesn't have a default value")
+[I 161123 20:41:47 web:1946] 200 POST /api/register (192.168.72.1) 124.18ms
+[I 161123 20:46:18 web:1946] 304 GET /register.html (192.168.72.1) 9.46ms
+[I 161123 20:46:18 web:1946] 304 GET /static/js/ihome/register.js (192.168.72.1) 5.30ms
+[I 161123 20:46:18 web:1946] 200 GET /api/imagecode?precodeid=&codeid=6b45d968-313a-4183-a137-0fd96c9950cd (192.168.72.1) 139.08ms
+[I 161123 20:46:18 web:1946] 200 GET /favicon.ico (192.168.72.1) 6.96ms
+[I 161123 20:47:05 web:1946] 200 POST /api/smscode (192.168.72.1) 754.17ms
+[E 161123 20:47:17 torndb:236] Error connecting to MySQL on 127.0.0.1
+[E 161123 20:47:17 Passport:46] (1364, "Field 'up_name' doesn't have a default value")
+[I 161123 20:47:17 web:1946] 200 POST /api/register (192.168.72.1) 25.10ms
+[I 161123 20:49:05 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/Passport.py modified; restarting server
+[I 161123 20:50:13 web:1946] 304 GET /register.html (192.168.72.1) 10.60ms
+[I 161123 20:50:13 web:1946] 304 GET /static/js/ihome/register.js (192.168.72.1) 5.99ms
+[I 161123 20:50:13 web:1946] 200 GET /api/imagecode?precodeid=&codeid=96d271f7-0595-4bb3-9f84-930b4eb6ca31 (192.168.72.1) 61.55ms
+[I 161123 20:50:14 web:1946] 200 GET /favicon.ico (192.168.72.1) 4.24ms
+[I 161123 20:50:35 web:1946] 200 POST /api/smscode (192.168.72.1) 7563.86ms
+[I 161123 20:50:43 web:1946] 200 POST /api/register (192.168.72.1) 441.47ms
+[I 161123 23:38:50 web:1946] 304 GET / (192.168.72.1) 60.53ms
+[I 161123 23:38:50 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.72.1) 178.63ms
+[I 161123 23:38:50 web:1946] 304 GET /static/css/ihome/index.css (192.168.72.1) 102.76ms
+[I 161123 23:38:51 web:1946] 304 GET /static/plugins/swiper/css/swiper.min.css (192.168.72.1) 78.90ms
+[I 161123 23:38:51 web:1946] 304 GET /static/plugins/swiper/js/swiper.jquery.min.js (192.168.72.1) 366.14ms
+[I 161123 23:38:51 web:1946] 304 GET /static/js/ihome/index.js (192.168.72.1) 16.46ms
+[I 161123 23:38:51 web:1946] 304 GET /static/js/template.js (192.168.72.1) 74.82ms
+[I 161123 23:38:51 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.72.1) 79.81ms
+[I 161123 23:38:51 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.72.1) 123.81ms
+[I 161123 23:38:57 web:1946] 304 GET /register.html (192.168.72.1) 23.39ms
+[I 161123 23:38:57 web:1946] 304 GET /static/js/ihome/register.js (192.168.72.1) 3.88ms
+[I 161123 23:38:57 web:1946] 200 GET /api/imagecode?precodeid=&codeid=2df675eb-a804-449b-9734-19c38c7b6941 (192.168.72.1) 120.52ms
+[I 161123 23:39:01 web:1946] 304 GET /register.html (192.168.72.1) 5.11ms
+[I 161123 23:39:01 web:1946] 200 GET /api/imagecode?precodeid=&codeid=9768f1d0-49ee-455e-9797-a50e401d145e (192.168.72.1) 33.26ms
+[I 161123 23:39:01 web:1946] 200 GET /favicon.ico (192.168.72.1) 5.34ms
+[I 161123 23:39:29 web:1946] 200 POST /api/smscode (192.168.72.1) 2928.54ms
+[I 161123 23:39:45 web:1946] 200 POST /api/register (192.168.72.1) 104.24ms
+[I 161123 23:41:53 web:1946] 200 GET /api/imagecode?precodeid=9768f1d0-49ee-455e-9797-a50e401d145e&codeid=3b356890-0a4c-49a3-bd85-25fb288c0715 (192.168.72.1) 38.29ms
+[I 161123 23:42:10 web:1946] 200 POST /api/smscode (192.168.72.1) 4.12ms
+[I 161123 23:42:16 web:1946] 200 GET /api/imagecode?precodeid=3b356890-0a4c-49a3-bd85-25fb288c0715&codeid=c1d88de7-b5a0-413e-b966-7aedb5fdcdc8 (192.168.72.1) 26.97ms
+[I 161123 23:42:31 web:1946] 200 POST /api/smscode (192.168.72.1) 3155.61ms
+[I 161123 23:42:35 web:1946] 200 POST /api/register (192.168.72.1) 30.56ms
+[I 161123 23:43:24 web:1946] 304 GET /register.html (192.168.72.1) 8.01ms
+[I 161123 23:43:24 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.72.1) 18.67ms
+[I 161123 23:43:24 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.72.1) 10.55ms
+[I 161123 23:43:24 web:1946] 304 GET /static/css/ihome/register.css (192.168.72.1) 10.86ms
+[I 161123 23:43:24 web:1946] 304 GET /static/css/ihome/main.css (192.168.72.1) 7.36ms
+[I 161123 23:43:24 web:1946] 304 GET /static/css/reset.css (192.168.72.1) 7.79ms
+[I 161123 23:43:24 web:1946] 304 GET /static/js/jquery.min.js (192.168.72.1) 159.97ms
+[I 161123 23:43:24 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.72.1) 63.53ms
+[I 161123 23:43:24 web:1946] 200 GET /static/js/ihome/register.js (192.168.72.1) 7.60ms
+[I 161123 23:43:24 web:1946] 304 GET /static/images/logo@128x59.png (192.168.72.1) 11.38ms
+[I 161123 23:43:24 web:1946] 200 GET /api/imagecode?precodeid=&codeid=b4959b8b-f770-49ee-87f6-98f3b21c5c67 (192.168.72.1) 38.22ms
+[I 161123 23:43:50 web:1946] 200 POST /api/smscode (192.168.72.1) 5578.82ms
+[I 161123 23:44:02 web:1946] 200 POST /api/register (192.168.72.1) 74.86ms
+[I 161123 23:44:02 web:1946] 200 GET /login.html/ (192.168.72.1) 124.83ms
+[I 161123 23:44:02 web:1946] 200 GET /static/js/ihome/login.js (192.168.72.1) 20.73ms
+[I 161123 23:44:02 web:1946] 200 GET /static/css/ihome/login.css (192.168.72.1) 35.42ms
+[I 161124 16:34:08 web:1946] 304 GET / (192.168.72.1) 72.98ms
+[I 161124 16:34:09 web:1946] 304 GET /static/js/ihome/index.js (192.168.72.1) 343.61ms
+[I 161124 16:34:12 web:1946] 304 GET /register.html (192.168.72.1) 2.66ms
+[I 161124 16:34:12 web:1946] 304 GET /static/js/ihome/register.js (192.168.72.1) 5.56ms
+[I 161124 16:34:12 web:1946] 200 GET /api/imagecode?precodeid=&codeid=5eac0794-ee47-40fe-adeb-2164a9fc3d7a (192.168.72.1) 109.31ms
+[I 161124 16:34:44 web:1946] 200 GET /login.html (192.168.72.1) 73.31ms
+[I 161124 16:34:44 web:1946] 304 GET /static/js/ihome/login.js (192.168.72.1) 58.00ms
+[I 161124 16:52:35 autoreload:204] /mnt/hgfs/advanced/project/Tornado_Project/handlers/Passport.py modified; restarting server
+[I 161124 16:52:56 autoreload:204] server.py modified; restarting server

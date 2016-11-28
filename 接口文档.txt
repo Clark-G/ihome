@@ -1,0 +1,126 @@
+1. 图片验证码
+描述：用来生成图片验证码
+
+URL：/api/imagecode?codeid=123&pcodeid=
+method: get
+
+传入参数：
+名称		类型	说明			是否必须
+codeid		string		验证码编号		是
+precodeid   string 	上一个验证码编号	是
+
+返回值：
+图片二进制数据
+
+2.发送短信验证码
+描述：用来发送短信验证码
+
+URL: /api/smscode
+method: post
+传入参数：
+名称			类型			说明		是否必须
+mobile  		string   		手机号码		是
+image_code_id	string          图片验证码id    是
+image_code_text	string          图片验证码文本  是
+{
+   "mobile":"18516951234",
+   "image_code_id":"f78a6c48-70fc-4b6a-b564-7e8043903e24",
+   "image_code_text":"fmrc",
+}
+
+返回值：
+{
+  "errno":0
+  "errmsg":"OK"
+}
+3. 注册
+描述：判断短信验证码是否正确，如果正确，把用户信息插入数据库中
+
+URL：/api/register
+method: post
+传入参数：
+名称			类型			说明					是否必须
+mobile          string         用户注册账户的手机号			是
+phonecode       string         短信验证码					是
+password        string         密码							是
+password2       string         确认密码						是
+
+返回值
+{
+	"errno":0,
+	"errmsg":"OK"
+}
+4. 登录
+描述：根据用户输入的用户信息去数据库查询，判断是否匹配
+
+URL：/api/login
+method: post
+传入参数：
+名称			类型			说明					是否必须
+mobile          string         用户用来登录的手机号			是
+password        string         密码							是
+
+返回值
+{
+	"errno":0,
+	"errmsg":"OK"
+}
+
+5.检查登录状态
+描述：根据session判断用户是否登录，如果登录则在对应的位置显示用户信息
+
+URL: /api/check_login
+method: get
+传入参数：
+	不传参
+
+返回值
+{
+	"errno":0,
+	"errmsg":"OK"
+}
+
+6. 退出登录
+描述：用户点击退出，删除存储的session_id和redis缓存的session数据
+URL: /api/logout
+method: get
+传入参数：
+	不传参
+
+返回值
+{
+	"errno":0,
+	"errmsg":"OK"
+}
+
+7. 获取用户中心的个人信息
+描述：用来获取用户中心的个人信息
+URL: /api/profile
+method: get
+传入参数：
+	不传参
+返回值：
+data = {
+    "errno": RET.OK,
+    "errmsg": "true",
+    'username': db_re.up_name,
+    'mobile': self.session.data['mobile'],
+    'avatar': db_re.up_avatar
+}
+8.修改用户头像
+描述：上传并修改用户的头像
+URL：/api/profile/avatar
+method:post
+传入参数：
+	
+返回值：
+data = {
+    "errno": RET.OK,
+    "errmsg": "OK",
+    'url': img_url
+}
+
+9. 修改用户名
+描述：修改用户名
+URL：/api/profile/name
+method:post

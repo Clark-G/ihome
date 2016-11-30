@@ -25,6 +25,7 @@ class BaseHandler(RequestHandler):
     def prepare(self):
         self.xsrf_token
         if self.request.headers.get("Content-Type", "").startswith("application/json"):
+            # print 'this is body', self.request.body
             self.json_args = json.loads(self.request.body)
         else:
             self.json_args = None

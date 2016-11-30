@@ -46,8 +46,9 @@ class Session(object):
                 "session_id", self.session_id)
 
     def clear(self):
+        print "session_id", self.request_handler.get_secure_cookie('session_id')
         self.request_handler.clear_cookie("session_id")
         try:
-            self.request_handler.redis.delete("sess_%s" % session_id)
+            self.request_handler.redis.delete("sess_%s" % self.session_id)
         except Exception, e:
             logging.error(e)

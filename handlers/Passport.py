@@ -9,6 +9,7 @@ import config
 from BaseHandler import BaseHandler
 from utils.response_code import RET
 from utils.session import Session
+from utils.common import require_logined
 
 
 class RegisterHandler(BaseHandler):
@@ -118,12 +119,8 @@ class LogoutHandler(BaseHandler):
     """
         退出路由处理类
     """
-
+    @require_logined
     def get(self):
-        try:
-            self.session = Session(self)
-            self.session.clear()
-        except Exception, e:
-            logging.error(e)
-            # return self.write({'errno': RET.})
+        print "This is self.session", self.session
+        self.session.clear()
         self.write({'errno': RET.OK, 'errmsg': 'true'})

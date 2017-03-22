@@ -25,7 +25,7 @@ class ProfileHanlder(BaseHandler):
         if not db_re.up_avatar:
             image_url = ''
         else:
-            image_url = config.image_url_prefix + db_re.up_avatar 
+            image_url = config.image_url_prefix + db_re.up_avatar
         data = {
             "errno": RET.OK,
             "errmsg": "true",
@@ -90,7 +90,7 @@ class UserNameHandler(BaseHandler):
             logging.error(e)
 
         if ret:
-           return self.write({'errno': RET.DATAEXIST, 'errmsg': '该用户名已存在，请重新设置'}) 
+            return self.write({'errno': RET.DATAEXIST, 'errmsg': '该用户名已存在，请重新设置'})
 
         try:
             sql = 'update ih_user_profile set up_name = %(name)s where up_user_id =%(user_id)s'
@@ -103,7 +103,8 @@ class UserNameHandler(BaseHandler):
             "errmsg": "OK",
             'uername': uname
         }
-        self.write(data)  
+        self.write(data)
+
 
 class AuthenticateHandler(BaseHandler):
     """
@@ -133,15 +134,16 @@ class AuthenticateHandler(BaseHandler):
         self.write(data)
 
     @require_logined
-    def post(self):        
+    def post(self):
         user_id = self.session.data['user_id']
         real_name = self.json_args.get('real_name')
         id_card = self.json_args.get('id_card')
-        if not all ([real_name, id_card]):
+        if not all([real_name, id_card]):
             return self.write({'errno': RET.PARAMERR, 'errmsg': '参数不完整'})
         sql = 'update ih_user_profile set up_real_name = %(real_name)s, up_id_card = %(id_card)s where up_user_id=%(user_id)s'
         try:
-            self.db.execute(sql, real_name=real_name, id_card=id_card, user_id=user_id)
+            self.db.execute(sql, real_name=real_name,
+                            id_card=id_card, user_id=user_id)
         except Exception, e:
             logging.error(e)
             return self.write({'errno': RET.DBERR, 'errmsg': '插入认证信息失败'})
@@ -151,4 +153,4 @@ class AuthenticateHandler(BaseHandler):
             'real_name': real_name,
             'id_card': id_card
         }
-        self.write(data)        
+        self.write(data)

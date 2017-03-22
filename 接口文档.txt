@@ -124,3 +124,38 @@ data = {
 描述：修改用户名
 URL：/api/profile/name
 method:post
+
+
+10. 实名认证
+
+
+
+11. 发布新房源
+描述：用户发布新的房源信息
+URL: /api/house/newhouse
+method: post
+传入参数：
+    {
+        'title':
+        'price':
+        'district':
+        'address':
+        'room_count':
+        'acreage':
+        'house_unit':
+        'house_capacity':
+        'beds':
+        'deposit':
+        'min_days':
+        'max_days':
+        'facility':
+
+
+    }
+
+返回值
+{
+    'errno': RET.OK
+    'errmsg': 'OK'
+    'house_id':
+}

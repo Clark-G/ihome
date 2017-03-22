@@ -2,6 +2,7 @@ import json
 from tornado.web import RequestHandler, StaticFileHandler
 from utils.session import Session
 
+
 class BaseHandler(RequestHandler):
     """
         The base class of handlers
@@ -25,6 +26,7 @@ class BaseHandler(RequestHandler):
     def prepare(self):
         self.xsrf_token
         if self.request.headers.get("Content-Type", "").startswith("application/json"):
+            # print 'this is body', self.request.body
             self.json_args = json.loads(self.request.body)
         else:
             self.json_args = None
@@ -41,6 +43,7 @@ class BaseHandler(RequestHandler):
     def get_current_user(self):
         self.session = Session(self)
         return self.session.data
+
 
 class StaticFileHandler(StaticFileHandler):
     """
